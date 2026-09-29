@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+venv/
+.env/
+.env.local
+
+# Build files
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# AWS
+.aws/
+samconfig.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+*.pem
+*.key
+credentials.json
+secrets.json
